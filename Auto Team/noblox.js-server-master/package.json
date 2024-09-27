@@ -1,0 +1,31 @@
+{
+  "name": "noblox.js-server",
+  "version": "2.0.1",
+  "description": "A RESTful API for using noblox.js",
+  "main": "server.js",
+  "author": "suufi <suufi@mit.edu>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard .",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@koa/router": "^13.0.0",
+    "dotenv": "^16.4.5",
+    "koa": "^2.13.1",
+    "koa-404-handler": "^0.1.0",
+    "koa-better-error-handler": "^11.0.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-joi-router": "^8.0.0",
+    "noblox.js": "^6.0.2"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/noblox/noblox.js/issues"
+  },
+  "homepage": "https://github.com/noblox/noblox.js-server",
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+}
